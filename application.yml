@@ -1,5 +1,5 @@
 gateway:
-  ip: 192.168.1.7
+  ip: 10.226.123.211
 
 token:
   expiration_time: 86400000 # 1 days
