@@ -3,7 +3,7 @@ gateway:
 
 token:
   expiration_time: 86400000 # 1 days
-  secret: kjdskjd9393kkdndf2323m2324mkmfro23
+  secret: otpekfkelemdmsmdmem8584k4834od
   
 login:
   url:
