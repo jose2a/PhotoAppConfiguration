@@ -1,13 +1,13 @@
 gateway:
   ip:  10.226.123.211 #192.168.1.4
 
-myEureka:
-  password: test
+# myEureka:
+#   password: test
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://test:${myEureka.password}@localhost:8010/eureka
+      defaultZone: http://localhost:8010/eureka #http://test:${myEureka.password}@localhost:8010/eureka
 
 token:
   expiration_time: 86400000 # 1 days
