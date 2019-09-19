@@ -1,10 +1,23 @@
 gateway:
-  ip: 10.226.123.211
+  ip:  10.226.123.211 #192.168.1.4
+
+myEureka:
+  password: test
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://test:${myEureka.password}@localhost:8010/eureka
 
 token:
   expiration_time: 86400000 # 1 days
-  secret: otpekfkelemdmsmdmem8584k4834od
+  secret: otpekfkelemdmsmdmem8584k4834odABC
   
 login:
   url:
     path: /users/login
+
+albums:
+  url: http://ALBUMS-WS/users/%s/albums
+  exceptions:
+    albums-not-found: User albums not found!!!

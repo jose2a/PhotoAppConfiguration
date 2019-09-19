@@ -1,0 +1,15 @@
+login:
+  url:
+    path: /users/login
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/photo_app
+    username: revature
+    password: revature
+    #'{cipher}AQC1Blh3GB7JtfLlTvpW4rb33MFQIQxEEMisA79UfjPXWjz+NmDfF+WkAS+ddbvDaKx2uV3voVrp5Y/d1YVJsDsecvQmtGW0TSThdMBIKSeIoCJp95jdTyFgzK1DIXmyB7v7CiTphe5nc/Hdq9JkO1YhRNchz2XdvExnZaYLOiydfyXN7cmNv5IsVY4zuBlx1ao1dd6hK0lVgo9Cy+3+kaRtuzltiRVwxcJjBNQp59/yQakzT2ca+KHQpSZ8fSy/7wbybwMoy5Ir5KUsnEp8riEq36ZVVCxMacDrxi3f7h1haF/VJDDhhl7jDvCguldcm7LDbsYPdKdQlx4yi3IhMf7WDquzVyAZtXfnXXzjGT794nmPaHJmT615II/mmyZU4Bg='
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
