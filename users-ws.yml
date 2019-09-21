@@ -4,9 +4,9 @@ login:
 
 spring:
   datasource:
-    url: jdbc:postgresql://photoapp.c4dfhcmrslrm.us-east-2.rds.amazonaws.com:5432/photoapp
+    url: jdbc:postgresql://172.31.29.167:5432/photoapp
     username: postgres
-    password: josejose
+    password: jose
     #'{cipher}AQC1Blh3GB7JtfLlTvpW4rb33MFQIQxEEMisA79UfjPXWjz+NmDfF+WkAS+ddbvDaKx2uV3voVrp5Y/d1YVJsDsecvQmtGW0TSThdMBIKSeIoCJp95jdTyFgzK1DIXmyB7v7CiTphe5nc/Hdq9JkO1YhRNchz2XdvExnZaYLOiydfyXN7cmNv5IsVY4zuBlx1ao1dd6hK0lVgo9Cy+3+kaRtuzltiRVwxcJjBNQp59/yQakzT2ca+KHQpSZ8fSy/7wbybwMoy5Ir5KUsnEp8riEq36ZVVCxMacDrxi3f7h1haF/VJDDhhl7jDvCguldcm7LDbsYPdKdQlx4yi3IhMf7WDquzVyAZtXfnXXzjGT794nmPaHJmT615II/mmyZU4Bg='
     
   jpa:
