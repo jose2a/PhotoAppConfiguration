@@ -7,7 +7,7 @@ myEureka:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.31.22.204:8010/eureka
+      defaultZone: http://172.31.22.137:8010/eureka
 
 token:
   expiration_time: 86400000 # 1 days
