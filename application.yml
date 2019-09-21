@@ -1,5 +1,5 @@
 gateway:
-  ip:  10.226.123.211 #192.168.1.4
+  ip: 18.189.150.177
 
 myEureka:
   password: test
