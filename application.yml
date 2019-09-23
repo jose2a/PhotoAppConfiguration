@@ -1,5 +1,5 @@
 gateway:
-  ip: 18.189.150.177
+  ip: ec2-18-189-150-177.us-east-2.compute.amazonaws.com
 
 myEureka:
   password: test
