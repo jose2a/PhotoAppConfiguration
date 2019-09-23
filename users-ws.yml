@@ -16,3 +16,11 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+  
+  cloud:
+    client:
+      hostname: ${HOSTNAME}
+
+eureka:
+  instance:
+    hostname: ${HOSTNAME}
