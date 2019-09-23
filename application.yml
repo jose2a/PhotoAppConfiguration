@@ -5,7 +5,20 @@ myEureka:
   password: test
 
 ribbon:
-  ReadTimeout: 60000
+  ReadTimeout: 120000
+
+zuul:
+  host:
+    socket-timeout-millis: 90000
+    
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: THREAD
+          thread:
+            timeoutInMilliseconds: 90000
 
 eureka:
   client:
