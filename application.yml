@@ -1,5 +1,5 @@
 gateway:
-  ip: 172.17.0.2
+  ip: *
 
 myEureka:
   password: test
