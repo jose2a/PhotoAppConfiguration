@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8181}
+  port: ${PORT:0}
 
 login:
   url:
@@ -16,11 +16,8 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-  
-  cloud:
-    client:
-      hostname: ${HOSTNAME}
 
 eureka:
   instance:
-    hostname: ${HOSTNAME}
+    prefer-ip-address: true
+    ip-address: ${HOST}
