@@ -24,8 +24,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.31.22.137:8010/eureka
-  instance:
-    preferIpAddress: true
+  # instance:
+  #   preferIpAddress: true
 
 token:
   expiration_time: 86400000 # 1 days
@@ -39,13 +39,3 @@ albums:
   url: http://ALBUMS-WS/users/%s/albums
   exceptions:
     albums-not-found: User albums not found!!!
-
-spring:
-  cloud:
-    inetutils:
-      ignored-interfaces:
-        - docker
-        - lo
-#         - eth1
-#         - eth2
-#         - eth3
