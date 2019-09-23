@@ -1,11 +1,6 @@
 server:
   port: ${PORT:8181}
 
-eureka:
-  client:
-    instance:
-      hostname: users-ws
-
 login:
   url:
     path: /users/login
