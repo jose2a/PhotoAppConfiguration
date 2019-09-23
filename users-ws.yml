@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:0}
+  port: ${PORT:8181}
 
 login:
   url:
