@@ -4,6 +4,9 @@ gateway:
 myEureka:
   password: test
 
+ribbon:
+  ReadTimeout: 60000
+
 eureka:
   client:
     serviceUrl:
