@@ -45,7 +45,6 @@ spring:
     inetutils:
       ignored-interfaces:
         - docker
-        - eth.*
         - lo
 #         - eth1
 #         - eth2
